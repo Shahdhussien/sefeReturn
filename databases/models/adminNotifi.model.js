@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const adminNotifSchema=mongoose.Schema({
+const adminNotifSchema=new mongoose.Schema({
     message:{
         type:String,
         trim:true,
